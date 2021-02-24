@@ -1,0 +1,155 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px #212121;
+    overflow: hidden;
+}
+#welcome{
+    margin-top: 20px;
+    height: 100vh;
+    color: #FFFFFF;
+    background: radial-gradient(circle, rgba(0,184,254,1) 19%, rgba(0,19,116,1) 93%);
+    display: table;
+    width: 100%;
+    height: 100vh;
+    
+}
+h1{
+    color: darkblue;
+    font-size: 40px;
+    font-weight: 300px;
+}
+.menu{
+    list-style: none;
+    float: right;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    color: deepskyblue;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 3px;
+    
+}
+#me{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 1000px;
+}
+
+#pic{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 1000px;
+}
+#About{
+    height: 100vh;
+    color: palevioletred;
+    font-size: 40px;
+    font-weight: 250px;
+    display: table;
+    width: 100%;
+    background: radial-gradient(circle, rgba(200,0,254,1) 29%, rgba(127,0,255,1) 63%);
+}
+#MyTreks{
+    height: 100vh;
+    color: maroon;
+    font-size: 40px;
+    font-weight: 250px;
+    display: table;
+    width: 100%;
+    background: radial-gradient(circle, rgba(237,154,0,1) 0%, rgba(255,0,0,1) 47%);
+}
+#MyWork{
+    background: radial-gradient(circle, rgba(0,255,50,1) 27%, rgba(105,199,96,1) 57%);
+     height: 100vh;
+    color: darkgreen;
+    font-size: 40px;
+    font-weight: 250px;
+    display: table;
+    width: 100%;
+}
+#Inspiration{
+    background: radial-gradient(circle, rgba(250,255,0,1) 0%, rgba(255,140,0,1) 78%);
+    height: 100vh;
+    color: darkgoldenrod;
+    font-size: 40px;
+    font-weight: 250px;
+    display: table;
+    width: 100%;
+}
+#Contact{
+    background: radial-gradient(circle, rgba(237,255,0,1) 33%, rgba(0,254,255,1) 53%);
+     height: 100vh;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 250px;
+    display: table;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+.navbar ul{
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: lightgray;
+}
+li {
+  display: inline;
+}
+hr{
+    height:  2px;
+    width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.navbar ul li a:hover{
+   color: deepskyblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+}
+.fa fa-envelope{
+	font-size:60px; !important;
+	color:red; !important;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
